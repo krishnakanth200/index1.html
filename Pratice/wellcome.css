@@ -1,0 +1,55 @@
+.header
+{
+    height: 100px;
+    width: 100%;
+    background-color: chocolate;
+    padding: 2px;
+    display:inline-flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+   
+}
+.header img{
+    height: 60px;
+    width: 60px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin: 20px;
+}
+.well
+{
+    text-align: center;
+    align-content: center;
+    background-color: blue;
+    height: 200px;
+}
+.well button
+{
+    background-color: red;
+    height: 40px;
+    width: 100px;
+    text-decoration-style: solid;
+    color: aliceblue;
+    border-radius: 10px;
+}
+@media screen and(ma-width:768px)
+{
+    .header,.well
+    {
+        width: 60%;
+        height: 70%;
+    }
+}
+@media screen and(ma-width:420px)
+{
+    .header
+    {
+        width: 40%;
+        height: 50%;
+    }
+    .well{
+        width: 20%;
+        height: 30%;
+    }
+}
